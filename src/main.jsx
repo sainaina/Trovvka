@@ -30,6 +30,7 @@ import HomeNotLogin from './pages/home-page/HomeNotLogin.jsx';
 
 
 const router = createBrowserRouter([
+  
   {
     path: '/',
     element: <MainLayout />,

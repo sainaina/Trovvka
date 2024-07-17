@@ -9,6 +9,7 @@ import {
   selectError,
   selectUsers,
 } from "../../redux/feature/user/userSlice";
+import { Metadata } from "../../lib/Metadata";
 
 const LoginPage = () => {
   const dispatch = useDispatch();

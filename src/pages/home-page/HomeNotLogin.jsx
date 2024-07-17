@@ -5,10 +5,11 @@ import { Dropdown } from "flowbite-react";
 import { Carousel } from "flowbite-react";
 import React from "react";
 import DropdownMenu from "../../components/button/DropdownMenu";
-import SlideImageComponent from "../../components/cart/home-page-components/SlideImageComponent";
+import { Metadata } from "../../lib/Metadata";
 
 export function HomeNotLogin() {
   return (
+    
     <div className="w-[100%] h-[7681px]">
         <div>
         <Metadata

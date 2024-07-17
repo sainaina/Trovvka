@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import { fetchCreateUser, selectUser } from "../../redux/feature/user/userSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { Metadata } from "../../lib/Metadata";
 
 const RegisterPage = () => {
   const userResponse = useSelector(selectUser);
